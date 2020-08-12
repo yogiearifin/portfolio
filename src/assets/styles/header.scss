@@ -1,0 +1,18 @@
+.btn-secondary {
+    background-color: transparent;
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+.header {
+    a {
+        color: white;
+    }
+
+}
+
+.dropdown-menu {
+    background-color: rgb(27, 27, 27);
+}

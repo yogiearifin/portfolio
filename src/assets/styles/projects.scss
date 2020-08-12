@@ -1,0 +1,29 @@
+.project {
+    margin-left: 5%;
+    h1 {
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    img {
+        width: 30rem;
+        height: 12rem;
+    }
+    &-row {
+        border-style: solid;
+        border-color: white;
+        border-width: 1px;
+        padding: 1%;
+        .swiper-container {
+            width: 30rem;
+        }
+    }
+    &-text {
+        h1 {
+            text-align: left;
+        }
+    }
+    &-repo {
+        margin-left: 3%;
+    }
+}
+
