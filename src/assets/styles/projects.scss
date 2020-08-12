@@ -6,7 +6,8 @@
     }
     img {
         width: 30rem;
-        height: 12rem;
+        height: 16rem;
+        margin: 10%;
     }
     &-row {
         border-style: solid;
@@ -20,6 +21,13 @@
     &-text {
         h1 {
             text-align: left;
+            font-size: 4.5rem;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+        .btn {
+            font-size: 2rem;
         }
     }
     &-repo {

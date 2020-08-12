@@ -6,14 +6,14 @@ const Intro = () => {
     return (
         <React.Fragment>
             <Container className="intro">
-            <h1>Welcome to Yogie Arifin's site!</h1>
+            <h1>Who is Yogie?</h1>
                 <Row className="intro-row">
                     <Col className="intro-text">
                         <p>Yogie Arifin is a junior front-end 
                             developer that recently graduated 
                             from Glints Academy. During the 
                             academy, he learned many things such as HTML, 
-                            CSS, Javascript, React Js, Git, and Agile methodologies. <br/>
+                            CSS, Javascript, React Js, Git, Agile methodologies, and many more. <br/>
                             <br/>
                             Swipe to learn more about him.</p>
                             <Button href="https://www.linkedin.com/in/yogie-arifin" target="_blank">Connect with Yogie</Button>
