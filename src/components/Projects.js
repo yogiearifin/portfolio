@@ -31,8 +31,8 @@ const Projects = () => {
                         <h1>Sayembara</h1>
                         <p>An online platform for graphic design contest.</p>
                         <p>Made by using React, Redux, and SASS</p>
-                        <Button href="https://sayembara-ga6.herokuapp.com/" target="_blank">Live Website</Button>
-                        <Button href="https://gitlab.com/glints-academy-6/team-e/front-end" target="_blank" className="project-repo">Repository</Button>
+                        <Button href="https://sayembara-ga6.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Website</Button>
+                        <Button href="https://gitlab.com/glints-academy-6/team-e/front-end" target="_blank" rel="noopener noreferrer" className="project-repo">Repository</Button>
                     </Col>
                 </Row>
             </Container>

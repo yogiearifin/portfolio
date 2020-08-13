@@ -15,7 +15,7 @@ const Intro = () => {
                             academy, he learned many things such as HTML, 
                             CSS, Javascript, React Js, Git, Agile methodologies, and many more. <br/>
                             <br/>
-                            Swipe to learn more about him.</p>
+                            Swipe or use your keyboard arrow to learn more about him.</p>
                             <Button href="https://www.linkedin.com/in/yogie-arifin" target="_blank">Connect with Yogie</Button>
                     </Col>
                     {/* <Col className="intro-img">
