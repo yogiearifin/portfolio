@@ -22,6 +22,7 @@ function App() {
         spaceBetween={50}
         slidesPerView={1}
         effect="cube"
+        navigation
         keyboard
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}

@@ -1,8 +1,10 @@
 .project {
     margin-left: 5%;
+    margin-top: 5%;
     h1 {
         text-align: center;
         padding-bottom: 3%;
+        margin-top: 5%;
     }
     img {
         width: 30rem;
@@ -16,7 +18,8 @@
         }
     }
     &-text {
-        h1 {
+        margin-top: 3%;
+        h2 {
             text-align: left;
             font-size: 4.5rem;
         }
@@ -25,10 +28,20 @@
         }
         .btn {
             font-size: 2rem;
+            margin-left: 10%;
         }
     }
-    &-repo {
-        margin-left: 3%;
+    &-icons {
+        a {
+            color: white;
+            &:hover {
+                color: rgb(138, 138, 138);
+            }
+        }
+        svg {
+            margin-left: 3%;
+            margin-top: 5%;
+        }
     }
 }
 

@@ -4,6 +4,9 @@ import 'swiper/swiper.scss';
 import { Container, Row, Col, Button} from 'reactstrap';
 import SwiperCore, { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { FaGlobe, FaGitlab, FaSass, FaReact } from "react-icons/fa";
+import { AiOutlineAntDesign } from "react-icons/ai";
+import { DiHeroku } from "react-icons/di";
 
 const Projects = () => {
     SwiperCore.use([Autoplay]);
@@ -28,11 +31,22 @@ const Projects = () => {
                         </Swiper>
                     </Col>
                     <Col className="project-text">
-                        <h1>Sayembara</h1>
+                        <h2>Sayembara</h2>
                         <p>An online platform for graphic design contest.</p>
-                        <p>Made by using React, Redux, and SASS</p>
-                        <Button href="https://sayembara-ga6.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Website</Button>
-                        <Button href="https://gitlab.com/glints-academy-6/team-e/front-end" target="_blank" rel="noopener noreferrer" className="project-repo">Repository</Button>
+                        <Row>
+                            <Col>
+                                <Button href="https://sayembara-ga6.herokuapp.com/" target="_blank" rel="noopener noreferrer"><FaGlobe /></Button>
+                                <Button href="https://gitlab.com/glints-academy-6/team-e/front-end" target="_blank" rel="noopener noreferrer" className="project-repo"><FaGitlab /></Button>
+                            </Col>
+                            <Col className="project-icons">
+                                <h3>
+                                <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><FaReact /></a>
+                                <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer"><FaSass /></a>
+                                <a href="https://ant.design/" target="_blank" rel="noopener noreferrer"><AiOutlineAntDesign /></a>
+                                <a href="https://www.heroku.com" target="_blank" rel="noopener noreferrer"><DiHeroku /></a>
+                                </h3>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Container>

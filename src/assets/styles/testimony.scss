@@ -1,6 +1,12 @@
 .testimony {
-    h1 {
-        margin-bottom: 3%;
+    margin-top: 3%;
+    width: 90%;
+    .swiper-container {
+        height: 230px;
+    }
+    &-head {
+        margin-top: 5%;
+        text-align: center;
     }
     &-row {
         display: flex;
@@ -8,17 +14,33 @@
     &-pic {
         margin-bottom: 3%;
         img {
-            width: 11rem;
+            border-radius: 50%;
         }
     }
     &-text {
-        flex: 80%;
-        h5 {
+        flex: 70%;
+        h2 {
             font-weight: bold;
+            font-size: 1.9rem;
         }
         a {
             color: white;
-            text-decoration: underline;
+        }
+    }
+    .swiper {
+        &-button {
+            &-next {
+                transform: rotate(90deg);
+                position: absolute;
+                top: 90%;
+                left: 50%;
+            }
+            &-prev {
+                transform: rotate(90deg);
+                position: absolute;
+                top: 10%;
+                left: 50%;
+            }
         }
     }
 }

@@ -9,14 +9,14 @@ const Intro = () => {
             <h1>Who is Yogie?</h1>
                 <Row className="intro-row">
                     <Col className="intro-text">
-                        <p>Yogie Arifin is a junior front-end 
+                        <p>Yogie Arifin is a junior front-end
                             developer that recently graduated 
                             from Glints Academy. During the 
                             academy, he learned many things such as HTML, 
                             CSS, Javascript, React Js, Git, Agile methodologies, and many more. <br/>
                             <br/>
                             Swipe or use your keyboard arrow to learn more about him.</p>
-                            <Button href="https://www.linkedin.com/in/yogie-arifin" target="_blank">Connect with Yogie</Button>
+                            <Button href="https://www.linkedin.com/in/yogie-arifin" target="_blank" rel="noopener noreferrer">Connect with Yogie</Button>
                     </Col>
                     {/* <Col className="intro-img">
                         <img src={require("../assets/images/yogie.jpg")} alt="icon" />
