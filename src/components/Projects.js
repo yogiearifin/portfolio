@@ -35,8 +35,8 @@ const Projects = () => {
                         <p>An online platform for graphic design contest.</p>
                         <Row>
                             <Col>
-                                <Button href="https://sayembara-ga6.herokuapp.com/" target="_blank" rel="noopener noreferrer"><FaGlobe /></Button>
-                                <Button href="https://gitlab.com/glints-academy-6/team-e/front-end" target="_blank" rel="noopener noreferrer" className="project-repo"><FaGitlab /></Button>
+                                <Button href="https://sayembara-ga6.herokuapp.com/" target="_blank" rel="noopener noreferrer"><FaGlobe /> Live Website</Button>
+                                <Button href="https://gitlab.com/glints-academy-6/team-e/front-end" target="_blank" rel="noopener noreferrer" className="project-repo"><FaGitlab /> Repository</Button>
                             </Col>
                             <Col className="project-icons">
                                 <h3>

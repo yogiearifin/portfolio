@@ -3,7 +3,6 @@
     margin-top: 5%;
     h1 {
         text-align: center;
-        padding-bottom: 3%;
         margin-top: 5%;
     }
     img {
@@ -27,15 +26,17 @@
             font-size: 1.5rem;
         }
         .btn {
-            font-size: 2rem;
+            font-size: 1rem;
             margin-left: 10%;
+            color: #61DAFB;
+            margin-bottom: 3%;
         }
     }
     &-icons {
         a {
-            color: white;
+            color: #61DAFB;
             &:hover {
-                color: rgb(138, 138, 138);
+                color: white;
             }
         }
         svg {

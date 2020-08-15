@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Row, Col, Button} from 'reactstrap';
 import "../assets/styles/intro.scss"
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Intro = () => {
     return (
@@ -16,7 +17,7 @@ const Intro = () => {
                             CSS, Javascript, React Js, Git, Agile methodologies, and many more. <br/>
                             <br/>
                             Swipe or use your keyboard arrow to learn more about him.</p>
-                            <Button href="https://www.linkedin.com/in/yogie-arifin" target="_blank" rel="noopener noreferrer">Connect with Yogie</Button>
+                            <Button href="https://www.linkedin.com/in/yogie-arifin" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /> Connect with Yogie</Button>
                     </Col>
                     {/* <Col className="intro-img">
                         <img src={require("../assets/images/yogie.jpg")} alt="icon" />
