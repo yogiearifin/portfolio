@@ -1,33 +1,24 @@
 .project {
-    margin-left: 5%;
     margin-top: 5%;
     h1 {
         text-align: center;
         margin-top: 5%;
     }
     img {
-        width: 30rem;
-        height: 16rem;
-        margin: 10%;
+        width: 100%;
     }
     &-row {
         padding: 1%;
-        .swiper-container {
-            width: 30rem;
+        @media (max-width: 480px) {
+            display: inline;
         }
     }
     &-text {
         margin-top: 3%;
         h2 {
             text-align: left;
-            font-size: 4.5rem;
-        }
-        p {
-            font-size: 1.5rem;
         }
         .btn {
-            font-size: 1rem;
-            margin-left: 10%;
             color: #61DAFB;
             margin-bottom: 3%;
             &:hover {

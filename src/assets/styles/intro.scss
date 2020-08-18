@@ -1,13 +1,8 @@
 .intro {
     padding-top: 5%;
-    margin-left: 5%;
+    width: 50%;
     p {
         text-align: left;
-        width: 40rem;
-        font-size: 1.5rem;
-    }
-    .btn {
-        font-size: 2rem;
     }
     &-row {
         display: flex;
@@ -21,12 +16,7 @@
             border-radius: 25%;
         }
     }
-}
-
-.swiper-button-prev {
-    color: #61DAFB;
-}
-
-.swiper-button-next {
-    color: #61DAFB;
+    @media (max-width:480px) {
+        width: 100%;
+    }
 }

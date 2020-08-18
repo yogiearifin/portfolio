@@ -10,6 +10,7 @@
     }
     &-row {
         display: flex;
+        margin-top: 3%;
     }
     &-pic {
         margin-bottom: 3%;
@@ -21,26 +22,9 @@
         flex: 70%;
         h2 {
             font-weight: bold;
-            font-size: 1.9rem;
         }
         a {
             color: white;
-        }
-    }
-    .swiper {
-        &-button {
-            &-next {
-                transform: rotate(90deg);
-                position: absolute;
-                top: 90%;
-                left: 50%;
-            }
-            &-prev {
-                transform: rotate(90deg);
-                position: absolute;
-                top: 10%;
-                left: 50%;
-            }
         }
     }
 }

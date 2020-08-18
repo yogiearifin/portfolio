@@ -1,34 +1,19 @@
 import React from "react"
 import "../assets/styles/projects.scss"
 import 'swiper/swiper.scss';
-import { Container, Row, Col, Button} from 'reactstrap';
-import SwiperCore, { Autoplay } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Row, Col, Button} from 'reactstrap';
 import { FaGlobe, FaGitlab, FaSass, FaReact } from "react-icons/fa";
 import { AiOutlineAntDesign } from "react-icons/ai";
 import { DiHeroku } from "react-icons/di";
 
 const Projects = () => {
-    SwiperCore.use([Autoplay]);
     return (
         <React.Fragment>
-            <Container className="project">
+            <Col className="project">
                 <h1>Yogie's Latest Project</h1>
                 <Row className="project-row">
                     <Col className="project-img">
-                        <Swiper
-                        spaceBetween={50}
-                        slidesPerView={1}
-                        autoplay
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        >
-                            <SwiperSlide><img src={require("../assets/images/Sayembara.png")} alt="sayembara" /></SwiperSlide>
-                            <SwiperSlide><img src={require("../assets/images/Sayembara2.png")} alt="sayembara" /></SwiperSlide>
-                            <SwiperSlide><img src={require("../assets/images/Sayembara3.png")} alt="sayembara" /></SwiperSlide>
-                            <SwiperSlide><img src={require("../assets/images/Sayembara4.png")} alt="sayembara" /></SwiperSlide>
-                            <SwiperSlide><img src={require("../assets/images/Sayembara5.png")} alt="sayembara" /></SwiperSlide>   
-                        </Swiper>
+                        <img src={require("../assets/images/Sayembara.png")} alt="sayembara" />
                     </Col>
                     <Col className="project-text">
                         <h2>Sayembara</h2>
@@ -49,7 +34,7 @@ const Projects = () => {
                         </Row>
                     </Col>
                 </Row>
-            </Container>
+            </Col>
         </React.Fragment>
     )
 }
