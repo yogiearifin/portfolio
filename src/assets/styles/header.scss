@@ -17,14 +17,19 @@
         margin-top: 1%;
     }
     &-name {
-        flex: 85%;
-        margin-left: 1;
+        flex: 40%;
+    }
+    h1 {
+        color: #61DAFB;
+        margin-left: 1%;
+        letter-spacing: -12px;
+    }
+    .btn-secondary {
+        margin-right: 3%;
+        border-style: none;
     }
     @media (max-width:480px) {
         padding: 3%;
-        h1 {
-            font-size: 1.5rem;
-        }
         .btn {
             font-size: 80%;
         }
@@ -39,3 +44,6 @@
     }
 }
 
+.resume {
+    border-style: solid !important;
+}

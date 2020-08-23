@@ -10,10 +10,16 @@ const Header = () => {
             <Col className="header">
                 <Row className="header-row">
                     <Col className="header-name">
-                        <h1>Yogie Arifin</h1>
+                        <h1>YA</h1>
                     </Col>
                     <Col className="header-button">
-                        <Button href="https://drive.google.com/uc?export=download&id=16yrAR0iA2fNwjAy1B3wQl1WZxKMDKHph">
+                        <Button href="/#projects">
+                            Project
+                        </Button>
+                        <Button href="/#testimonies">
+                            Testimonies
+                        </Button>
+                        <Button className="resume" href="https://drive.google.com/uc?export=download&id=16yrAR0iA2fNwjAy1B3wQl1WZxKMDKHph">
                             Resume
                         </Button>
                     </Col>

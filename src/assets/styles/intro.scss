@@ -4,6 +4,10 @@
     p {
         text-align: left;
     }
+    h5 {
+        color: #46a4be;
+        opacity: 0.9;
+    }
     &-row {
         display: flex;
     }
@@ -13,10 +17,18 @@
     &-img {
         img {
             width: 15rem;
-            border-radius: 25%;
+            border-radius: 50%;
         }
     }
     @media (max-width:480px) {
         width: 100%;
+    }
+    .btn-secondary {
+        background-color: #46a4be;
+        color: white;
+        &:hover {
+            background-color: white;
+            color: black;
+        }
     }
 }
