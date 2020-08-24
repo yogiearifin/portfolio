@@ -15,9 +15,21 @@
     }
     &-row {
         margin-top: 1%;
+        @media (max-width:800px) {
+            display: flex;
+        }
+        @media (max-width:700px) {
+            display: inline;
+        }
     }
     &-name {
         flex: 40%;
+        @media (max-width:480px) {
+            flex: 45%;
+        }
+        @media (max-width:1112px) {
+            flex: 5%;
+        }
     }
     h1 {
         color: #61DAFB;
@@ -31,15 +43,7 @@
     @media (max-width:480px) {
         padding: 3%;
         .btn {
-            font-size: 80%;
-        }
-        .header-name {
-            flex: 45%;
-        }
-    }
-    @media (max-width:800px) {
-        .header-name {
-            flex: 70%;
+            font-size: 70%;
         }
     }
 }
