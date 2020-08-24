@@ -1,10 +1,8 @@
 import React from "react"
 import { useSelector } from 'react-redux';
 import {  Row, Col} from 'reactstrap';
-import 'swiper/swiper-bundle.css';
-import 'swiper/swiper.scss';
 import "../assets/styles/testimony.scss"
-import 'swiper/components/effect-flip/effect-flip.scss'
+import LightSpeed from 'react-reveal/LightSpeed';
 
 const Testimony = () => {
     const cards = useSelector(state => state.testi.cards)
@@ -14,19 +12,21 @@ const Testimony = () => {
             <Row id="testimonies">
                 <Col className="testimony">
                 <h1 className="testimony-head">What they say about Yogie</h1>
-                    {cards && cards.map (cards => 
-                        <Row className="testimony-row">
-                            <Col className="testimony-pic">
-                                <img src={cards.picture} alt={cards.id} />
-                            </Col>
-                            <Col className="testimony-text">
-                                <Row className="testimony-text-container">
-                                    <h2>{cards.name}</h2>
-                                    <h6>{cards.relation}</h6>
-                                </Row>
-                                <p>{cards.testi}</p>
-                            </Col>
-                        </Row>
+                    {cards && cards.map (cards =>
+                        <LightSpeed left> 
+                            <Row className="testimony-row">
+                                <Col className="testimony-pic">
+                                    <img src={cards.picture} alt={cards.id} />
+                                </Col>
+                                <Col className="testimony-text">
+                                    <Row className="testimony-text-container">
+                                        <h2>{cards.name}</h2>
+                                        <h6>{cards.relation}</h6>
+                                    </Row>
+                                    <p>{cards.testi}</p>
+                                </Col>
+                            </Row>
+                        </LightSpeed>
                     )}
                 </Col>
             </Row>

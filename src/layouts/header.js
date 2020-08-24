@@ -19,7 +19,7 @@ const Header = () => {
                         <Button href="/#testimonies">
                             Testimonies
                         </Button>
-                        <Button className="resume" href="https://drive.google.com/uc?export=download&id=16yrAR0iA2fNwjAy1B3wQl1WZxKMDKHph">
+                        <Button className="resume" href="https://drive.google.com/file/d/11bH-x69arN59nDrYLC9SUtkm24ouSRaA/view">
                             Resume
                         </Button>
                     </Col>
