@@ -4,6 +4,7 @@ import Header from "../layouts/header"
 import Intro from "../components/Intro"
 import Projects from "../components/Projects"
 import Testimony from "../components/Testimony"
+import Footer from "../layouts/footer"
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Intro />
       <Projects />
       <Testimony />
+      <Footer />
     </>
   );
 }

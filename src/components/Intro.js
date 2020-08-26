@@ -7,7 +7,7 @@ import Slide from 'react-reveal/Slide';
 const Intro = () => {
     return (
         <React.Fragment>
-            <Slide left delay={1000}>
+            <Slide left delay={500}>
                 <Col className="intro">
                     <h2>Yogie Arifin</h2>
                     <h1>Junior Front End Developer</h1>

@@ -3,6 +3,7 @@
     .btn {
         margin: 1%;
     }
+    text-align: center;
     &-title {
         margin-bottom: 3%;
     }
@@ -26,6 +27,8 @@
     &-return {
         .btn {
             margin-left: 5%;
+            margin-top: 2%;
+            margin-bottom: 2%;
             border-style: none;
         }
     }

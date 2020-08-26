@@ -2,7 +2,7 @@ import React from "react"
 import { useSelector } from 'react-redux';
 import {  Row, Col} from 'reactstrap';
 import "../assets/styles/testimony.scss"
-import LightSpeed from 'react-reveal/LightSpeed';
+import Fade from 'react-reveal/Fade';
 
 const Testimony = () => {
     const cards = useSelector(state => state.testi.cards)
@@ -13,7 +13,7 @@ const Testimony = () => {
                 <Col className="testimony">
                 <h1 className="testimony-head">What they say about Yogie</h1>
                     {cards && cards.map (cards =>
-                        <LightSpeed left> 
+                        <Fade> 
                             <Row className="testimony-row">
                                 <Col className="testimony-pic">
                                     <img src={cards.picture} alt={cards.id} />
@@ -26,7 +26,7 @@ const Testimony = () => {
                                     <p>{cards.testi}</p>
                                 </Col>
                             </Row>
-                        </LightSpeed>
+                        </Fade>
                     )}
                 </Col>
             </Row>
