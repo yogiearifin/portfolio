@@ -15,8 +15,8 @@ const Footer = () => {
                     <p>Find Yogie</p>
                     <hr />
                     <h1>
-                        <a href="https://github.com/yogiearifin"><FaGithub /></a>
-                        <a href="https://gitlab.com/yogiearifin"><FaGitlab /></a>
+                        <a href="https://github.com/yogiearifin" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                        <a href="https://gitlab.com/yogiearifin" target="_blank" rel="noopener noreferrer"><FaGitlab /></a>
                         <a href="mailto:yogiearifin@yahoo.co.id"><AiOutlineMail /></a>
                     </h1>
                 </Col>
