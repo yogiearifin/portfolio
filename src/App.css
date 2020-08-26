@@ -16,3 +16,12 @@ body {
 * h1 {
     color: #61DAFB !important;
 }
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}

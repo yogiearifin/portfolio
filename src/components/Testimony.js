@@ -20,7 +20,7 @@ const Testimony = () => {
                                 </Col>
                                 <Col className="testimony-text">
                                     <Row className="testimony-text-container">
-                                        <h2>{cards.name}</h2>
+                                        <h4>{cards.name}</h4>
                                         <h6>{cards.relation}</h6>
                                     </Row>
                                     <p>{cards.testi}</p>

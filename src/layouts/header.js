@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../assets/styles/header.scss"
 import { Button, Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
             <Col className="header">
                 <Row className="header-row">
                     <Col className="header-name">
-                        <h1>YA</h1>
+                        <Link to="/"><h1>YA</h1></Link>
                     </Col>
                     <Col className="header-button">
                         <Button href="/#projects">

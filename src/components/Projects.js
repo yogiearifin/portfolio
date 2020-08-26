@@ -1,7 +1,7 @@
 import React from "react"
 import "../assets/styles/projects.scss"
 import { Row, Col, Button} from 'reactstrap';
-import { FaGlobe, FaGitlab, FaSass, FaReact, FaGithub, FaBootstrap } from "react-icons/fa";
+import { FaSass, FaReact, FaBootstrap, FaArrowRight } from "react-icons/fa";
 import { AiOutlineAntDesign } from "react-icons/ai";
 import { DiHeroku } from "react-icons/di";
 import Zoom from 'react-reveal/Zoom';
@@ -22,8 +22,7 @@ const Projects = () => {
                                 <p>An online platform for graphic design contest.</p>
                                 <Row>
                                     <Col>
-                                        <Button href="https://sayembara-ga6.herokuapp.com/" target="_blank" rel="noopener noreferrer"><FaGlobe /> Live Website</Button>
-                                        <Button href="https://gitlab.com/glints-academy-6/team-e/front-end" target="_blank" rel="noopener noreferrer" className="project-repo"><FaGitlab /> Repository</Button>
+                                        <Button href="/sayembara"> <FaArrowRight /> Learn More </Button>
                                     </Col>
                                     <Col className="project-icons">
                                         <h3>
@@ -47,8 +46,7 @@ const Projects = () => {
                                 <p>A simple newsreader using Hackernews API.</p>
                                 <Row>
                                     <Col>
-                                        <Button href="https://hackernews-lite.netlify.app/" target="_blank" rel="noopener noreferrer"><FaGlobe /> Live Website</Button>
-                                        <Button href="https://github.com/yogiearifin/hackernews" target="_blank" rel="noopener noreferrer" className="project-repo"><FaGithub /> Repository</Button>
+                                        <Button href="/hackernews"> <FaArrowRight /> Learn More </Button>
                                     </Col>
                                     <Col className="project-icons">
                                         <h3>

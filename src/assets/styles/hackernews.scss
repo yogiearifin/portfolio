@@ -1,0 +1,43 @@
+.hackernews {
+    margin-top: 3%;
+    .btn {
+        margin: 1%;
+    }
+    text-align: center;
+    &-title {
+        margin-bottom: 3%;
+    }
+    &-content {
+        &-slide {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 3%;
+            img {
+                height: 500px;
+                @media (max-width:480px) {
+                    display: none;
+                }
+                @media (max-width:800px) {
+                    width: 100%;
+                }
+            }
+        }
+        &-text {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    &-return {
+        .btn {
+            margin-left: 5%;
+            border-style: none;
+        }
+    }
+    .swiper-button-prev, .swiper-button-next {
+        color: #61DAFB !important;
+    }
+}
