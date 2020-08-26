@@ -47,7 +47,7 @@ const Projects = () => {
                                 <p>A simple newsreader using Hackernews API.</p>
                                 <Row>
                                     <Col>
-                                        <Link to="/sayembara"><Button><FaArrowRight /> Learn More</Button></Link>
+                                        <Link to="/hackernews"><Button><FaArrowRight /> Learn More</Button></Link>
                                     </Col>
                                     <Col className="project-icons">
                                         <h3>
