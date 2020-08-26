@@ -3,7 +3,6 @@ import { Row, Col } from 'reactstrap';
 import "../assets/styles/footer.scss"
 import { FaGithub, FaGitlab } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return(
