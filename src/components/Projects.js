@@ -5,6 +5,7 @@ import { FaSass, FaReact, FaBootstrap, FaArrowRight } from "react-icons/fa";
 import { AiOutlineAntDesign } from "react-icons/ai";
 import { DiHeroku } from "react-icons/di";
 import Zoom from 'react-reveal/Zoom';
+import { Link } from "react-router-dom"
 
 const Projects = () => {
     return (
@@ -22,7 +23,7 @@ const Projects = () => {
                                 <p>An online platform for graphic design contest.</p>
                                 <Row>
                                     <Col>
-                                        <Button href="/sayembara"> <FaArrowRight /> Learn More </Button>
+                                        <Link to="/sayembara"><Button><FaArrowRight /> Learn More </Button></Link>
                                     </Col>
                                     <Col className="project-icons">
                                         <h3>
@@ -46,7 +47,7 @@ const Projects = () => {
                                 <p>A simple newsreader using Hackernews API.</p>
                                 <Row>
                                     <Col>
-                                        <Button href="/hackernews"> <FaArrowRight /> Learn More </Button>
+                                        <Link to="/sayembara"><Button><FaArrowRight /> Learn More</Button></Link>
                                     </Col>
                                     <Col className="project-icons">
                                         <h3>
