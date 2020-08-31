@@ -6,6 +6,7 @@ import Projects from "../components/Projects"
 import Testimony from "../components/Testimony"
 import Footer from "../layouts/footer"
 
+
 const Home = () => {
   return (
     <>

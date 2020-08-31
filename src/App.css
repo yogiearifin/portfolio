@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #282C34!important;
+    background-color: #383d49!important;
     color: white !important;
 }
 
@@ -24,4 +24,8 @@ body {
 
 a:hover {
     text-decoration: none !important;
+}
+
+.container {
+    max-width: 1120px;
 }

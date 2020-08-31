@@ -1,11 +1,13 @@
 .hackernews {
-    margin-top: 3%;
     .btn {
         margin: 1%;
     }
     text-align: center;
     &-title {
         margin-bottom: 3%;
+    }
+    &-container {
+        background-color: #282C34;
     }
     &-content {
         &-slide {

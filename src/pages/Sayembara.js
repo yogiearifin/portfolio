@@ -7,7 +7,6 @@ import SwiperCore, { Navigation, Pagination } from 'swiper'
 import 'swiper/swiper.scss';
 import 'swiper/swiper-bundle.css';
 import "../assets/styles/sayembara.scss"
-import Fade from 'react-reveal/Fade';
 import Footer from "../layouts/footer"
 
 SwiperCore.use([Navigation, Pagination]);
@@ -16,7 +15,7 @@ const Sayembara = () => {
     return(
         <>
             <Header />
-            <Fade bottom delay={500}>
+            <Col className="sayembara-container">
                 <Row className="sayembara">
                     <Col className="sayembara-title">
                         <h1>Sayembara</h1>
@@ -25,8 +24,6 @@ const Sayembara = () => {
                         <Button href="https://gitlab.com/glints-academy-6/team-e/front-end" target="_blank" rel="noopener noreferrer" className="project-repo"><FaGitlab /> Repository</Button>
                     </Col>
                 </Row>
-            </Fade>
-            <Fade bottom delay={500}>
                 <Row className="sayembara-content">
                     <Col className="sayembara-content-slide">
                         <Swiper
@@ -58,12 +55,10 @@ const Sayembara = () => {
                         </p>
                     </Col>
                 </Row>
-            </Fade>
-            <Fade>
                 <Row className="sayembara-return">
                     <Button href="/"><FaArrowLeft /> Return to home</Button>
                 </Row>
-            </Fade>
+            </Col>
             <Footer />
         </>
     )

@@ -7,7 +7,6 @@ import SwiperCore, { Navigation, Pagination } from 'swiper'
 import 'swiper/swiper.scss';
 import 'swiper/swiper-bundle.css';
 import "../assets/styles/hackernews.scss"
-import Fade from 'react-reveal/Fade';
 import Footer from "../layouts/footer"
 
 SwiperCore.use([Navigation, Pagination]);
@@ -16,7 +15,7 @@ const Hackernews = () => {
     return(
         <>
             <Header />
-            <Fade bottom delay={500}>
+            <Col className="hackernews-container">
                 <Row className="hackernews">
                     <Col className="hackernews-title">
                         <h1>Hackernews</h1>
@@ -25,8 +24,6 @@ const Hackernews = () => {
                         <Button href="https://github.com/yogiearifin/hackernews" target="_blank" rel="noopener noreferrer" className="project-repo"><FaGithub /> Repository</Button>
                     </Col>
                 </Row>
-            </Fade>
-            <Fade bottom delay={500}>
                 <Row className="hackernews-content">
                     <Col className="hackernews-content-slide">
                     <Swiper
@@ -54,12 +51,10 @@ const Hackernews = () => {
                         </p>
                     </Col>
                 </Row>
-            </Fade>
-            <Fade>
                 <Row className="hackernews-return">
                     <Button href="/"><FaArrowLeft /> Return to home</Button>
                 </Row>
-            </Fade>
+            </Col>
             <Footer />
         </>
     )
