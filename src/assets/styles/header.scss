@@ -1,6 +1,7 @@
 .btn-secondary {
     background-color: transparent;
     color: #61DAFB;
+
     &:hover {
         background-color: white;
         color: black;
@@ -10,38 +11,49 @@
 .header {
     background-color: #2a303b;
     padding: 1%;
+
     a {
         color: #61DAFB;
     }
+
     &-row {
         margin-top: 1%;
+
         @media (max-width:800px) {
             display: flex;
         }
+
         @media (max-width:700px) {
             display: inline;
         }
     }
+
     &-name {
         flex: 30%;
+
         @media (max-width:480px) {
             flex: 35%;
         }
+
         @media (max-width:1112px) {
             flex: 5%;
         }
     }
+
     h1 {
         color: #61DAFB;
         margin-left: 1%;
         letter-spacing: -12px;
     }
+
     .btn-secondary {
         margin-right: 3%;
         border-style: none;
     }
+
     @media (max-width:480px) {
         padding: 3%;
+
         .btn {
             font-size: 60%;
         }
