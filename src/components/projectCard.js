@@ -25,11 +25,7 @@ const ProjectCard = ({ ...props }) => {
               title={`${data.slug} video`}
             />
           ) : (
-            <iframe
-              src={data.link}
-              frameBorder="0"
-              title={`${data.slug} site`}
-            />
+            <img src={data?.img[0]} alt={`${data?.name} image`} />
           )}
         </Col>
         <Col className="project-text">

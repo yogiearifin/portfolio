@@ -11,11 +11,10 @@ const Intro = () => {
         <Slide left delay={500}>
           <Col className="intro">
             <h2>Yogie Arifin</h2>
-            <h1>Junior Front End Developer</h1>
+            <h1>Front End Developer</h1>
             <Row className="intro-row">
               <Col className="intro-text">
                 <p>
-                  {" "}
                   Yogie Arifin is a junior front-end developer that recently
                   graduated from Glints Academy. During the academy, he learned
                   many things such as HTML, CSS, Javascript, React Js, Git,
