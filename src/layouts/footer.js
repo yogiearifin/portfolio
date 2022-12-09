@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 import "../assets/styles/footer.scss";
-import { FaGithub, FaGitlab } from "react-icons/fa";
+import { FaGithub, FaGitlab, FaMediumM } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
@@ -29,6 +29,13 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <FaGitlab />
+            </a>
+            <a
+              href="https://medium.com/@yogiearifinp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaMediumM />
             </a>
             <a href="mailto:yogiearifinp@gmail.com">
               <AiOutlineMail />
