@@ -9,28 +9,9 @@ const Projects = () => {
       <Row id="projects">
         <Col className="project">
           <h1>Yogie's Latest Project</h1>
-          <ProjectCard
-            name={"movieapp"}
-            video={false}
-            react={true}
-            bootstrap={true}
-            heroku={true}
-          />
-          <ProjectCard
-            name={"sayembara"}
-            video={true}
-            react={true}
-            sass={true}
-            antd={true}
-            heroku={true}
-          />
-          <ProjectCard
-            name={"hackernews"}
-            video={false}
-            react={true}
-            sass={true}
-            bootstrap={true}
-          />
+          <ProjectCard name={"movieapp"} />
+          <ProjectCard name={"sayembara"} />
+          <ProjectCard name={"hackernews"} />
         </Col>
       </Row>
     </>

@@ -14,7 +14,6 @@ const Header = () => {
           </Col>
           <Col className="header-button">
             <Button href="/#projects">Project</Button>
-            <Button href="/#testimonies">Testimonies</Button>
             <Button
               className="resume"
               href="https://drive.google.com/file/d/11bH-x69arN59nDrYLC9SUtkm24ouSRaA/view"
